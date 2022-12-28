@@ -1,0 +1,18 @@
+.nature-section{
+    height: 30vh;
+    width: 100%;
+    display:flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+::-webkit-scrollbar{
+    display:hidden;
+}
+.nature-section-photos{
+    width: 350px;
+    height: 350px;
+}
+.nature-section-photos img{
+    width: 350px;
+    height: 350px;
+}

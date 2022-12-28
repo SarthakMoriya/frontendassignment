@@ -1,0 +1,31 @@
+.form{
+    display: flex;
+    display: column;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font: 14px;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.form form label{
+    width: 60%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form from label h5{
+    width: 50%;
+}
+.form form label input{
+    width: 50%;
+}

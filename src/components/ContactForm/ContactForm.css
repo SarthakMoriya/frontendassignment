@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+.contact-form-box-container{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Inter';
+    flex-wrap: wrap;
+}
+
+.contact-form-box-container h3{
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+}
+
+.contact-form-left{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    word-wrap:break-word;
+    width: 26%;
+    /* flex-wrap: wrap; */
+}
+
+.contact-form-left h5{
+    text-transform: capitalize;
+}
+
+.contact-form-right{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around
+}
+
+.contact-form-right input{
+    border:none;
+    border-bottom: 1.7px solid black;
+    color:gray;
+}
+.contact-form-right input:focus{
+    border:none;
+    outline: none;
+    border-bottom: 1.7px solid rgb(228, 35, 35);
+    color:gray;
+}
+
+.contact-form-right form {
+    display:flex;
+    flex-direction: column;
+}
+
+.contact-form-right form div{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: 5px 0;
+}
+
+.contact-form-right form div label{
+    text-transform: uppercase;
+    margin-right: 6px;
+}
+
+.contact-form-right form button{
+    margin: 10px 0;
+}
+
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-form-left{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        word-wrap:break-word;
+        width: 26%;
+        flex-wrap: wrap;
+    }
+    .contact-form-left h5{
+        text-transform: capitalize;
+        margin-top: 50px;
+    }
+    
+}
+

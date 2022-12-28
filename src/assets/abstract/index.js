@@ -1,0 +1,8 @@
+export {default as nature1} from './alex-perez-ioJBsYQ-pPM-unsplash.jpg'
+export {default as nature2} from './daniel-olah-OlTjeydUpQw-unsplash.jpg'
+export {default as nature3} from './milad-fakurian-E8Ufcyxz514-unsplash.jpg'
+export {default as nature4} from './milad-fakurian-PGdW_bHDbpI-unsplash.jpg'
+export {default as nature5} from './pawel-czerwinski-6lQDFGOB1iw-unsplash.jpg'
+export {default as nature6} from './pawel-czerwinski-Lki74Jj7H-U-unsplash.jpg'
+export {default as nature7} from './pawel-czerwinski-ruJm3dBXCqw-unsplash.jpg'
+export {default as nature8} from './usgs-hoS3dzgpHzw-unsplash.jpg'

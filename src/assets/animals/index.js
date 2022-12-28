@@ -1,0 +1,8 @@
+export {default as animal1} from './birger-strahl-b08_zpeBMC8-unsplash.jpg'
+export {default as animal2} from './feliphe-schiarolli-3p-mX1lQrJ8-unsplash.jpg'
+export {default as animal3} from './feliphe-schiarolli-XmoYRSawQBY-unsplash.jpg'
+export {default as animal4} from './idean-azad-TOKbfHc1iOw-unsplash.jpg'
+export {default as animal5} from './idean-azad-VlEBljvsmNI-unsplash.jpg'
+export {default as animal6} from './jason-hawke-FA2_R97yWuw-unsplash.jpg'
+export {default as animal7} from './jason-hawke-SBT_kEwXaas-unsplash.jpg'
+export {default as animal8} from './jason-hawke-UAKue5O9O3o-unsplash.jpg'

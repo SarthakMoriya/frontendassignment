@@ -1,0 +1,8 @@
+export { default as facebook } from './facebook.png'
+export { default as github } from './github.png'
+export { default as linkedin } from './linkedin.png'
+export { default as twitter } from './twitter.png'
+export { default as profile } from './user.png'
+export { default as  settings} from './settings.png'
+export { default as gallery } from './image-gallery.png'
+export { default as logout } from './logout.png'

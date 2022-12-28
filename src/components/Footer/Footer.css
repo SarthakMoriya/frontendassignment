@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #eeeaec;
+    margin-top: 50px;
+    font-family: 'Inter';
+}
+
+.brand-name{
+    border-bottom:1px saddlebrown solid;
+    border-top:4px rgb(157, 154, 153) solid;
+    padding: 13px;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.footer-2nd-column {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.icons-div div {
+    display: flex;
+    padding: 10px;
+}
+
+.icons-div div img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.icons-div div h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: 2px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.icons-div div h6:hover{
+    transform: rotate(40deg);
+    color:gray
+}
+
+.newsletter div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.footer-links{
+    display: flex;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    cursor: pointer;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.footer-links div{
+    transition: all 0.4s ease-in-out;
+}
+
+.footer-links div:hover{
+    text-decoration:underline;
+    transform: rotate(-20deg);
+    color:gray;
+}
+.copyright{
+    background-color:black;
+    color:#9ca3af;
+}
+
+/* CSS */
+.button-4 {
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.button-4:hover {
+  background-color: #f42b08;
+  color:rgb(211, 202, 202);
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.button-4:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.button-4:focus {
+  outline: 1px transparent;
+}
+
+.button-4:before {
+  display: none;
+}
+
+.button-4:-webkit-details-marker {
+  display: none;
+}
